@@ -1,0 +1,13 @@
+{
+  "deploy": {
+    "project": "4f70a93c-3823-4975-aa0e-7ea3d2f2abcd",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "descriptor-service.ts"
+  },
+  "imports": {
+    "polkadot-api": "npm:polkadot-api@^1.9.13"
+  }
+}
